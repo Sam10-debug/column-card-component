@@ -1,0 +1,38 @@
+%btn{
+    border-radius: 1rem;
+    background-color: $bg-color;
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.2rem;
+    cursor: pointer;
+}
+#first{
+    @extend %btn;
+    color:  hsl(31, 77%, 52%);
+    &:hover{
+        border: 1.5px solid #fff;
+        background-color:  hsl(31, 77%, 52%);
+        color: white;
+    }
+}
+#second{
+    color:  hsl(184, 100%, 22%);
+    @extend %btn;
+    &:hover{
+        border: 1.5px solid #fff;
+        background-color:   hsl(184, 100%, 22%);
+        color: white;
+    }
+}
+#third{
+    color:  hsl(179, 100%, 13%);
+    @extend %btn;
+    &:hover{
+        border: 1.5px solid #fff;
+        background-color:  hsl(179, 100%, 13%);
+        color: white;
+    }
+}

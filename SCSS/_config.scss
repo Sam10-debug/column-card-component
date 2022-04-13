@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+$font-stack1: 'Big Shoulders Display', cursive;
+$font-stack2: 'Lexend Deca', sans-serif;
+$text-color:hsla(0, 0%, 100%, 0.75);
+$bg-color: hsla(0, 0%, 100%, 0.95);
+//  headings and buttons
+// @function check($color){
+//     @if($color == hsl(179, 100%, 13%)){
+//        @return hsl(179, 100%, 13%);
+//     }@else if($color == $bg-color){
+//         @return hsl(184, 100%, 22%);
+//     }@else if($color == hsl(31, 77%, 52%)){
+//         @return hsl(31, 77%, 52%);
+//     }@else{
+//         @return hsl(0, 0%, 100%);
+//     }
+// }
